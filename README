@@ -1,0 +1,30 @@
+colorpick - simple X11 color picker
+===================================
+colorpick is an utility to display the color of a window pixel for X.
+
+Requirements
+------------
+In order to build dwm you need the Xlib header files.
+
+
+Installation
+------------
+Edit config.mk to match your local setup (colorpick is installed into
+/usr/local namespace by default).
+
+Afterwards enter the following command to build and install colorpick:
+
+    make clean install
+
+
+
+Using colorpick
+---------------
+When you run colorpick it will wait for a mouse click event. When that
+happens, colorpick prints the color of the clicked pixel in hexadecimal
+format.
+
+
+Configuration
+-------------
+There is no configuration options.
